@@ -11,13 +11,13 @@ yarn global add vue-i18n-chinese-generate
 项目根目录命令行执行 i18n
 ```
 # 生成国际化文件
-i18n generate ./src （可指定执行的目录，例如：i18n generate ./src/views/HomeView.vue）
+i18n create ./src （可指定执行的目录，例如：i18n create ./src/views/HomeView.vue）
 # 然后就会在根目录生成一个 zh_langs.js 的配置文件，之后对项目引入vue-i18n并采用该配置文件即可
 ```
 
 执行生成命令时，可以通过参数控制key和index，如下
 ```
-i18n generate ./src --p src/lang  指定设置生成文件的路径
+i18n create ./src --p src/lang  指定设置生成文件的路径
 -k, --key <key>            自定义key前缀，默认为相对执行目录的文件路径
 -s, --single               是否为单文件index序列，默认为全局序列，当自定义key之后，此设置无效
 -p, --path <path>          设置生成文件的路径，默认为运行目录（请设置已经存在的目录！！！）

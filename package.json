@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "vue-i18n util",
   "keywords": ["vue", "i18n", "util"],
-  "main": "generate.js",
+  "main": "create.js",
   "bin": {
     "i18n": "bin/i18n.js"
   },
